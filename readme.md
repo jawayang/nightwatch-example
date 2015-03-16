@@ -150,6 +150,10 @@ Command-line Options
 | --filter    | -f |  |  Specify a filter (glob expression) as the file name format to use when loading the test files. |
 | --tags	  | -a |  |  Filter test modules by tags. Only tests that have the specified tags will be loaded. |
 
+單一測試
+```
+$ nightwatch -e chrome -g dlcs
+```
 
 執行範例
 https://github.com/9thport/nightwatch-example
