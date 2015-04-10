@@ -31,12 +31,13 @@ module.exports = {
 			function tapSlide (){
 				count ++;
 				browser
-					.pause(2000)
-					.waitForElementVisible('#slideIScroll_A div.slide:first-child', 50000)
+					.pause(5*1000)
+					.waitForElementVisible('#slideIScroll_A div.slide:first-child', 60000)
 					//.assert.visible("#slideIScroll_A")
 					.execute(function() {
 						$('#slideIScroll_A ul li div.slide:first-child').trigger('tap');
 					})
+					.pause(0.5*60*1000)
 					.waitForElementVisible('#next', 10000)
 					//.waitForElementVisible('#next', 10000, '下一個Case')
 					//.assert.visible("#next")
