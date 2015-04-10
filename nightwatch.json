@@ -6,7 +6,7 @@
   "globals_path" : "",
 
   "selenium" : {
-    "start_process" : true,
+    "start_process" : false,
     "server_path" : "./selenium-server-standalone-2.45.0.jar",
     "log_path" : "",
     "host" : "127.0.0.1",
@@ -20,7 +20,7 @@
     "default" : {
       "launch_url" : "http://localhost",
       "selenium_port"  : 4444,
-      "selenium_host"  : "localhost",
+      "selenium_host"  : "10.30.182.155",
       "silent": true,
       "screenshots" : {
         "enabled" : true,
